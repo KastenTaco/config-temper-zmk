@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: temper}
 layers:
   Base:
   - [Q, W, E, R, T, Y, U, I, O, P]
@@ -130,7 +131,7 @@ layers:
     - STOP
     - MUTE
   Nav:
-  - ['*', '7', '8', '9', +, Ctl+ Z, Ctl+ X, Ctl+ C, Ctl+ V, Ctl+ Y]
+  - ['*', '7', '8', '9', +, Ctl+Z, Ctl+X, Ctl+C, Ctl+V, Ctl+Y]
   - - /
     - {t: '4', h: LEFT ALT}
     - {t: '5', h: LCTRL}
@@ -158,16 +159,16 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   Mou:
-  - - Ctl+ Z
-    - Ctl+ X
-    - Ctl+ C
-    - Ctl+ V
-    - {t: Ctl+ Y, h: PRINTSCREEN}
-    - Ctl+ Z
-    - Ctl+ X
-    - Ctl+ C
-    - Ctl+ V
-    - Ctl+ Y
+  - - Ctl+Z
+    - Ctl+X
+    - Ctl+C
+    - Ctl+V
+    - {t: Ctl+Y, h: PRINTSCREEN}
+    - Ctl+Z
+    - Ctl+X
+    - Ctl+C
+    - Ctl+V
+    - Ctl+Y
   - - LEFT
     - '&mkp LCLK'
     - {t: ▽, type: trans}
@@ -278,28 +279,3 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-combos:
-- p: [13, 16]
-  k: '&caps_word'
-  l: [Base]
-- p: [0, 1]
-  k: F5
-  l: [Base]
-- p: [24, 23]
-  k: Ctl+ V
-  l: [Base]
-- p: [23, 22]
-  k: Ctl+ C
-  l: [Base]
-- p: [22, 21]
-  k: Ctl+ X
-  l: [Base]
-- p: [2, 1]
-  k: Ctl+ Z
-  l: [Base]
-- p: [3, 2]
-  k: Ctl+ Y
-  l: [Base]
-- p: [18, 19]
-  k: ''''
-  l: [Base]
