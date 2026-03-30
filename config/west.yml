@@ -1,9 +1,9 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com
+      url-base: https://github.com/zmkfirmware
     - name: urob
-      url-base: https://github.com
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,7 +12,5 @@ manifest:
     - name: zmk-nodefree-config
       remote: urob
       revision: main
-      # REMOVE the 'path:' line entirely. 
-      # Let west put it in the default 'modules/' folder.
   self:
     path: config
