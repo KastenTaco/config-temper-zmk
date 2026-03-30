@@ -13,19 +13,4 @@ manifest:
       remote: urob
       revision: v0.3 # Should match ZMK release.
   self:
-    path: configmanifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-#    - name: urob
-#      url-base: https://github.com/urob
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: v0.3
-      import: app/west.yml
-#    - name: zmk-nodefree-config
-#      remote: urob
-#      revision: main
-  self:
     path: config
