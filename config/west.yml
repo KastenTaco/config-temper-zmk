@@ -12,5 +12,6 @@ manifest:
     - name: zmk-nodefree-config
       remote: urob
       revision: main
+      path: zmk-nodefree-config # Remove the "config/" prefix here
   self:
     path: config
